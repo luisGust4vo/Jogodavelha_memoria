@@ -38,7 +38,7 @@ void menu(){
       break;
       case 2:
         system("cls");
-        printf("Um jogador joga com o cÌrculo ( O ) e outro com os xis ( X ). Cada jogador, na sua vez, desenha (ou coloca a peÁa ), numa lacuna que esteja vazia. Quando um jogador conquista o objetivo, costuma-se riscar os trÍs sÌmbolos. Quando h· empate costuma-se dizer que o jogo ìdeu velhaî.\n");
+        printf("Um jogador joga com o c√≠rculo ( O ) e outro com os xis ( X ). Cada jogador, na sua vez, desenha (ou coloca a pe√ßa ), numa lacuna que esteja vazia. Quando um jogador conquista o objetivo, costuma-se riscar os tr√™s s√≠mbolos. Quando h√° empate costuma-se dizer que o jogo ‚Äúdeu velha‚Äù.\n");
       break;
   }
   printf("\n\nDeseja voltar para o menu principal? [S-N]\n");
@@ -108,74 +108,74 @@ void tabuleiro(){
       //--
 	  system("cls"); 
 	  if(casas2[0][0] == 'X' && casas2[0][1] == 'X'&& casas2[0][2] == 'X'){
-	  	printf("Parabens!! o jogador X ou 1 È o vencedor\n");
+	  	printf("Parabens!! o jogador X ou 1 √© o vencedor\n");
 		casas2[0][0]='-',casas2[0][1]='-',casas2[0][2]='-';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 		cont=11;
 	  }
       else if(casas2[1][0] == 'X' && casas2[1][1] == 'X'&& casas2[1][2] == 'X'){
-	  	printf("Parabens!! o jogador X ou 1 È o vencedor\n");
+	  	printf("Parabens!! o jogador X ou 1 √© o vencedor\n");
 		casas2[1][0]='-',casas2[1][1]='-',casas2[1][2]='-';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 		cont=11;
 	  }
       else if(casas2[2][0] == 'X' && casas2[2][1] == 'X'&& casas2[2][2] == 'X'){
-	  	printf("Parabens!! o jogador X ou 1 È o vencedor\n");
+	  	printf("Parabens!! o jogador X ou 1 √© o vencedor\n");
 	  	casas2[2][0]='-',casas2[2][1]='-',casas2[2][2]='-';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 	  	cont=11;
 	  }
       else if(casas2[0][0] == 'X' && casas2[1][0] == 'X'&& casas2[2][0] == 'X'){ //coluna esqerda
-	  	printf("Parabens!! o jogador X ou 1 È o vencedor\n");
+	  	printf("Parabens!! o jogador X ou 1 √© o vencedor\n");
 	  	casas2[0][0]='|',casas2[1][0]='|',casas2[2][0]='|';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 	  	cont=11;
 	  }	 	  	  
       else if(casas2[0][1] == 'X' && casas2[1][0] == 'X'&& casas2[2][0] == 'X'){
-	  	printf("Parabens!! o jogador X ou 1 È o vencedor\n");
+	  	printf("Parabens!! o jogador X ou 1 √© o vencedor\n");
 		casas2[0][1]='-',casas2[1][0]='-',casas2[2][0]='-';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 	  	cont=11;
 	  }	  
       else if(casas2[0][1] == 'X' && casas2[1][1] == 'X'&& casas2[2][1] == 'X'){ // coluna meio
-	  	printf("Parabens!! o jogador X ou 1 È o vencedor\n");
+	  	printf("Parabens!! o jogador X ou 1 √© o vencedor\n");
 	  	casas2[0][1]='|',casas2[1][1]='|',casas2[2][1]='|';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 	  	cont=11;
 	  }
       else if(casas2[0][2] == 'X' && casas2[1][2] == 'X'&& casas2[2][2] == 'X'){ // coluna direita
-	  	printf("Parabens!! o jogador X ou 1 È o vencedor\n");
+	  	printf("Parabens!! o jogador X ou 1 √© o vencedor\n");
 	  	casas2[0][2]='|',casas2[1][2]='|',casas2[2][2]='|';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 	  	cont=11;
 	  }	
       else if(casas2[0][0] == 'X' && casas2[1][1] == 'X'&& casas2[2][2] == 'X'){ //-- diagonal
-	  	printf("Parabens!! o jogador X ou 1 È o vencedor\n");
+	  	printf("Parabens!! o jogador X ou 1 √© o vencedor\n");
 	  	casas2[0][0]='\\',casas2[1][1]='\\',casas2[2][2]='\\';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 	  	cont=11;
 	  }
       else if(casas2[0][2] == 'X' && casas2[1][1] == 'X'&& casas2[2][0] == 'X'){ //-- diagonal
-	  	printf("Parabens!! o jogador X ou 1 È o vencedor\n");
+	  	printf("Parabens!! o jogador X ou 1 √© o vencedor\n");
 	  	casas2[0][2]='/',casas2[1][1]='/',casas2[2][0]='/';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 	  	cont=11;
 	  }
@@ -183,74 +183,74 @@ void tabuleiro(){
 	  //--- segundo jogador
 	 
 	  if(casas2[0][0] == 'O' && casas2[0][1] == 'O'&& casas2[0][2] == 'O'){
-	  	printf("Parabens!! o jogador O ou 2 È o vencedor\n");
+	  	printf("Parabens!! o jogador O ou 2 √© o vencedor\n");
 		casas2[0][0]='-',casas2[0][1]='-',casas2[0][2]='-';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 		cont=11;
 	  }
       else if(casas2[1][0] == 'O' && casas2[1][1] == 'O'&& casas2[1][2] == 'O'){
-		printf("Parabens!! o jogador O ou 2 È o vencedor\n");
+		printf("Parabens!! o jogador O ou 2 √© o vencedor\n");
 		casas2[1][0]='-',casas2[1][1]='-',casas2[1][2]='-';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 		cont=11;
 	  }
       else if(casas2[2][0] == 'O' && casas2[2][1] == 'O'&& casas2[2][2] == 'O'){
-	  	printf("Parabens!! o jogador O ou 2 È o vencedor\n");
+	  	printf("Parabens!! o jogador O ou 2 √© o vencedor\n");
 	  	casas2[2][0]='-',casas2[2][1]='-',casas2[2][2]='-';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 	  	cont=11;
 	  }
       else if(casas2[0][0] == 'O' && casas2[1][0] == 'O'&& casas2[2][0] == 'O'){ //coluna esqerda
-	  	printf("Parabens!! o jogador O ou 2 È o vencedor\n");
+	  	printf("Parabens!! o jogador O ou 2 √© o vencedor\n");
 	  	casas2[0][0]='|',casas2[1][0]='|',casas2[2][0]='|';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 	  	cont=11;
 	  }	 	  	  
       else if(casas2[0][1] == 'O' && casas2[1][0] == 'O'&& casas2[2][0] == 'O'){
-	  	printf("Parabens!! o jogador O ou 2 È o vencedor\n");
+	  	printf("Parabens!! o jogador O ou 2 √© o vencedor\n");
 		casas2[0][1]='-',casas2[1][0]='-',casas2[2][0]='-';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 	  	cont=11;
 	  }	  
       else if(casas2[0][1] == 'O' && casas2[1][1] == 'O'&& casas2[2][1] == 'O'){ // coluna meio
-	  	printf("Parabens!! o jogador O ou 2 È o vencedor\n");
+	  	printf("Parabens!! o jogador O ou 2 √© o vencedor\n");
 	  	casas2[0][1]='|',casas2[1][1]='|',casas2[2][1]='|';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 	  	cont=11;
 	  }
       else if(casas2[0][2] == 'O' && casas2[1][2] == 'O'&& casas2[2][2] == 'O'){ // coluna direita
-	  	printf("Parabens!! o jogador O ou 2 È o vencedor\n");
+	  	printf("Parabens!! o jogador O ou 2 √© o vencedor\n");
 	  	casas2[0][2]='|',casas2[1][2]='|',casas2[2][2]='|';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 	  	cont=11;
 	  }	
       else if(casas2[0][0] == 'O' && casas2[1][1] == 'O'&& casas2[2][2] == 'O'){ //-- diagonal
-	  	printf("Parabens!! o jogador O ou 2 È o vencedor\n");
+	  	printf("Parabens!! o jogador O ou 2 √© o vencedor\n");
 	  	casas2[0][0]='\\',casas2[1][1]='\\',casas2[2][2]='\\';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 	  	cont=11;
 	  }
       else if(casas2[0][2] == 'O' && casas2[1][1] == 'O'&& casas2[2][0] == 'O'){ //-- diagonal
-	  	printf("Parabens!! o jogador O ou 2 È o vencedor\n");
+	  	printf("Parabens!! o jogador O ou 2 √© o vencedor\n");
 	  	casas2[0][2]='/',casas2[1][1]='/',casas2[2][0]='/';
 		Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 	  	cont=11;
 	  }
