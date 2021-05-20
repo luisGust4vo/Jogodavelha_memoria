@@ -26,7 +26,7 @@ void menu(){
     printf("# CLIQUE [2] PARA VER O MANUAL DO JOGO      #\n");
     printf("#-------------------------------------------#\n");
     printf("# CLIQUE [3] PARA INICIAR O JOGO DA MEMORIA #\n");
-    printf("# CLIQUE [4] PARA VER O MANUAL DO JOGO      #\n");
+    printf("# CLIQUE [4] PARA VER O MANUAL DO JOGO      #\n"); // falta fazer
     printf("#############################################\n");
     printf("\nDIGITE O NUMERO ESCOLHIDO!\n");
     scanf("%d",&num);
