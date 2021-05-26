@@ -277,5 +277,5 @@ void tabuleiro(){
       Beep(1000,50); 
    }while(resp == 's' || resp == 'S');
    system("cls");
-   printf(" FIM do programa!!");
+   printf(" FIM do programa!!");a
 }
