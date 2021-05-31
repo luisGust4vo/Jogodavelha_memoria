@@ -267,7 +267,7 @@ void tabuleiro(){
 	  if(cont == 10){
 	  	printf("Deu velha!!\n");
 	  	Beep(3000,130);
-    	Beep(2000,130);
+    		Beep(2000,130);
 		Beep(1560,130);
 	  }
 	
