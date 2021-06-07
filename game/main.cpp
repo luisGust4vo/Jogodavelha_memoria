@@ -30,7 +30,7 @@ void menu(){
     printf("#############################################\n");
     printf("\nDIGITE O NUMERO ESCOLHIDO!\n");
     scanf("%d",&num);
-    Beep(700,50); // retirar quando for usar no linux
+    Beep(700,50); // retirar  o beep quando for usar no linux
     Beep(1000,50);
 	switch(num){
       case 1:
