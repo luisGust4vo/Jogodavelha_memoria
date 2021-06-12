@@ -2,7 +2,7 @@
 #include <windows.h>
 #include <stdlib.h>
 #include <locale.h>
-#define TAM 3
+#define TAM 3a
 
 void tabuleiro();
 void menu();
